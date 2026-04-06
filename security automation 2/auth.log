@@ -1,0 +1,19 @@
+2025-03-31 08:14:22 FAILED login user=admin ip=192.168.1.10
+2025-03-31 08:14:25 FAILED login user=admin ip=192.168.1.10
+2025-03-31 08:14:28 SUCCESS login user=john ip=10.0.0.5
+2025-03-31 08:14:35 FAILED login user=root ip=172.16.0.20
+2025-03-31 08:14:40 FAILED login user=admin ip=192.168.1.10
+2025-03-31 08:14:45 FAILED login user=admin ip=192.168.1.10
+2025-03-31 08:14:50 FAILED login user=admin ip=192.168.1.10
+2025-03-31 08:15:00 SUCCESS login user=alice ip=10.0.0.10
+2025-03-31 08:15:10 FAILED login user=root ip=172.16.0.20
+2025-03-31 08:15:15 FAILED login user=root ip=172.16.0.20
+2025-03-31 08:15:20 FAILED login user=root ip=172.16.0.20
+2025-03-31 08:15:25 FAILED login user=root ip=172.16.0.20
+2025-03-31 08:15:30 FAILED login user=service ip=192.168.1.50
+2025-03-31 08:15:35 SUCCESS login user=bob ip=10.0.0.15
+[FAILED_LOGIN] 2026-04-06 16:25:18 | user=root | ip=48.87.83.247
+[FAILED_LOGIN] 2026-04-06 16:25:19 | user=admin | ip=192.168.1.50
+[FAILED_LOGIN] 2026-04-06 16:25:19 | user=root | ip=142.248.10.46
+[FAILED_LOGIN] 2026-04-06 16:25:22 | user=service | ip=10.0.0.100
+[FAILED_LOGIN] 2026-04-06 16:25:22 | user=admin | ip=192.168.1.10

@@ -1,0 +1,35 @@
+2026-04-06 16:25:18 - root - INFO - LoginDetector initialized in PRACTICE mode
+2026-04-06 16:25:18 - root - INFO - Max attempts: 4, Lockout: 5 min
+2026-04-06 16:25:18 - root - INFO - === PRACTICE MODE ===
+2026-04-06 16:25:18 - root - INFO - Generating random login attempts to test detection...
+2026-04-06 16:25:18 - root - INFO - Threshold: 4 failed attempts
+2026-04-06 16:25:18 - root - INFO - 
+--- Simulation Iteration 1 ---
+2026-04-06 16:25:18 - root - WARNING - Failed login #1 for root from 48.87.83.247
+2026-04-06 16:25:19 - root - WARNING - Failed login #1 for admin from 192.168.1.50
+2026-04-06 16:25:19 - root - WARNING - Failed login #1 for root from 142.248.10.46
+2026-04-06 16:25:22 - root - INFO - 
+--- Simulation Iteration 2 ---
+2026-04-06 16:25:22 - root - WARNING - Failed login #1 for service from 10.0.0.100
+2026-04-06 16:25:22 - root - WARNING - Failed login #1 for admin from 192.168.1.10
+2026-04-06 16:25:23 - root - INFO - Successful login for service from 192.168.1.10 (cleared 1 previous failures)
+2026-04-06 16:25:40 - root - INFO - LoginDetector initialized in ACTIVE mode
+2026-04-06 16:25:40 - root - INFO - Max attempts: 5, Lockout: 15 min
+2026-04-06 16:25:40 - root - INFO - === ACTIVE MODE ===
+2026-04-06 16:25:40 - root - INFO - Monitoring log file: /var/log/auth.log
+2026-04-06 16:25:40 - root - INFO - Press Ctrl+C to stop gracefully...
+2026-04-06 16:25:40 - root - WARNING - Log file /var/log/auth.log not found
+2026-04-06 16:25:50 - root - WARNING - Log file /var/log/auth.log not found
+2026-04-06 16:25:53 - root - INFO - Received signal 2, shutting down gracefully...
+2026-04-06 16:25:53 - root - INFO - No alerts to export
+2026-04-06 16:25:53 - root - INFO - No alerts to export
+2026-04-06 16:25:53 - root - INFO - Detector shutdown complete
+2026-04-06 16:26:08 - root - INFO - LoginDetector initialized in ACTIVE mode
+2026-04-06 16:26:08 - root - INFO - Max attempts: 5, Lockout: 15 min
+2026-04-06 16:26:08 - root - INFO - === ACTIVE MODE ===
+2026-04-06 16:26:08 - root - INFO - Monitoring log file: auth.log
+2026-04-06 16:26:08 - root - INFO - Press Ctrl+C to stop gracefully...
+2026-04-06 16:26:42 - root - INFO - Received signal 2, shutting down gracefully...
+2026-04-06 16:26:42 - root - INFO - No alerts to export
+2026-04-06 16:26:42 - root - INFO - No alerts to export
+2026-04-06 16:26:42 - root - INFO - Detector shutdown complete

@@ -1,0 +1,41 @@
+# Login Detector Configuration
+# Copy this to config.yaml and adjust for your environment
+
+# Operation Mode: 'active' for workplace, 'practice' for testing
+mode: active
+
+# Active Mode Settings (Real workplace monitoring)
+active:
+  #log_file: /var/log/auth.log
+  max_attempts: 5
+  lockout_minutes: 15
+  
+# Practice Mode Settings (Testing with simulated data)
+practice:
+  max_attempts: 4
+  lockout_minutes: 5
+  simulate_ips: true
+  simulation_interval: 2  # seconds between simulated events
+
+# SIEM Integration
+siem:
+  enabled: true
+  type: elastic  # Options: elastic, splunk, qradar
+  elastic_url: http://localhost:9200
+  elastic_index: siem_alerts
+  elastic_api_key: ""  # Set via ELASTIC_API_KEY env var
+
+# Email Alerts
+email:
+  enabled: true
+  smtp_server: smtp.gmail.com
+  smtp_port: 587
+  use_tls: true
+  # Set these via environment variables:
+  # EMAIL_SENDER, EMAIL_PASSWORD, EMAIL_RECIPIENT
+
+# Logging
+logging:
+  level: INFO  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+  file: login_detector.log
+  console: true
