@@ -1,0 +1,45 @@
+# File Integrity Monitor - .gitignore
+
+# Environment variables (NEVER commit!)
+.env
+*.env
+
+# Database files (contains hashes)
+file_hashes.json
+file_hashes.db
+
+# Alert exports
+fim_alerts_*.json
+
+# Logs
+*.log
+file_integrity_monitor.log
+
+# Test files (created by practice mode)
+test_files/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db

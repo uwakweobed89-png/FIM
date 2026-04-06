@@ -1,0 +1,21 @@
+[
+{
+    "comments": " If you want to remove white space press Ctrl + K , Ctrl + X to remove all trailing white space on save. If you want to remove white space on a specific file, open the command palette (Ctrl + Shift + P) and select 'Trim Trailing Whitespace'."
+},
+{
+
+    "editor.formatOnSave": true,
+    "files.trimTrailingWhitespace": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "pyhon.linting.flake8Args": [
+        "--max-line-length=79"
+    ],
+    "python.formatting.provider": "black",
+    "python.linting.enabled": true,
+    "python.formatting.blackArgs": [
+        "--line-length=79"
+    ]
+    
+}
+]

@@ -1,0 +1,67 @@
+# File Integrity Monitor Configuration
+# Educational security tool for learning file integrity monitoring
+
+# Operation Mode: 'practice' for safe learning, 'active' for real
+mode: active
+
+# Practice Mode Settings (Safe Testing)
+practice:
+  test_files_dir: ./test_files
+  num_test_files: 10
+  auto_modify_interval: 30  # Simulate changes every 30 seconds
+  hash_algorithm: sha256
+  check_interval: 10  # Check files every 10 seconds
+
+# Active Mode Settings (Real System Monitoring)
+active:
+  hash_algorithm: sha256
+  check_interval: 60  # Check files every 60 seconds
+  
+  # Paths to monitor (use forward slashes for cross-platform)
+  watch_paths:
+    - path: /etc/passwd
+      description: "User accounts (Linux)"
+    - path: /etc/hosts
+      description: "Host file (Linux)"
+    # Windows examples (uncomment when ready):
+    # - path: C:/Windows/System32/drivers/etc/hosts
+    #   description: "Host file (Windows)"
+
+# Ignore Patterns (files to skip - regex patterns)
+ignore_patterns:
+  - ".*\\.log$"           # Log files
+  - ".*\\.tmp$"           # Temporary files
+  - ".*\\.swp$"           # Vim swap files
+  - ".*/__pycache__/.*"   # Python cache
+  - ".*\\.pyc$"           # Compiled Python
+  - ".*/\\.git/.*"        # Git directory
+  - ".*\\.db$"            # Database files
+
+# Database Settings (stores file hashes)
+database:
+  type: json  # Options: json, sqlite
+  json_path: file_hashes.json
+  sqlite_path: file_hashes.db
+
+# Alerting Configuration
+alerts:
+  email:
+    enabled: false
+    smtp_server: smtp.gmail.com
+    smtp_port: 587
+    use_tls: true
+    # Credentials via environment variables:
+    # FIM_EMAIL_SENDER, FIM_EMAIL_PASSWORD, FIM_EMAIL_RECIPIENT
+  
+  siem:
+    enabled: false
+    type: elastic
+    url: http://localhost:9200
+    index: fim_alerts
+    # API key via: FIM_ELASTIC_API_KEY
+
+# Logging
+logging:
+  level: INFO  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+  file: file_integrity_monitor.log
+  console: true

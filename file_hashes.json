@@ -1,0 +1,82 @@
+{
+  "test_files\\test_file_0.txt": {
+    "path": "test_files\\test_file_0.txt",
+    "hash_value": "028a4581e09073aca5e3615ee3ac22f56d398db25afd6fd3a7950c5679d7b1ee",
+    "algorithm": "sha256",
+    "size": 65,
+    "modified_time": 1775117079.2430706,
+    "last_checked": "2026-04-02T09:04:39.269949"
+  },
+  "test_files\\test_file_1.txt": {
+    "path": "test_files\\test_file_1.txt",
+    "hash_value": "853f5aeaacea1f45ca638b7834480a7cfa39e617d6e0c6e83377a068fa8e7bfb",
+    "algorithm": "sha256",
+    "size": 65,
+    "modified_time": 1775117079.2440803,
+    "last_checked": "2026-04-02T09:04:39.286159"
+  },
+  "test_files\\test_file_2.txt": {
+    "path": "test_files\\test_file_2.txt",
+    "hash_value": "a36ba4a17a048dcf760dbd95bb27f850220ca524d7c7e29df2923d572b2fd666",
+    "algorithm": "sha256",
+    "size": 39,
+    "modified_time": 1775117139.53126,
+    "last_checked": "2026-04-03T15:59:08.238062"
+  },
+  "test_files\\test_file_3.txt": {
+    "path": "test_files\\test_file_3.txt",
+    "hash_value": "a72eca973b81af10952664052bb640d9589a861a00d64f83a6f25cd9cef816a5",
+    "algorithm": "sha256",
+    "size": 65,
+    "modified_time": 1775117079.2450812,
+    "last_checked": "2026-04-02T09:04:39.326582"
+  },
+  "test_files\\test_file_4.txt": {
+    "path": "test_files\\test_file_4.txt",
+    "hash_value": "c4dd0bec2207b1b56ebd5c1c03ee5103cf00d9355d4b31b598d21f8c88c117f8",
+    "algorithm": "sha256",
+    "size": 65,
+    "modified_time": 1775117079.246081,
+    "last_checked": "2026-04-02T09:04:39.347738"
+  },
+  "test_files\\test_file_5.txt": {
+    "path": "test_files\\test_file_5.txt",
+    "hash_value": "bf2e690be8a05af434d8453cac0a73e21ae96e52ca6349ea994ace0a8a7d4a92",
+    "algorithm": "sha256",
+    "size": 65,
+    "modified_time": 1775117079.2470827,
+    "last_checked": "2026-04-02T09:04:39.366293"
+  },
+  "test_files\\test_file_6.txt": {
+    "path": "test_files\\test_file_6.txt",
+    "hash_value": "62e6e24add68b8680512be42f45df165fe8cc033b1feca2388b84d02797f3d32",
+    "algorithm": "sha256",
+    "size": 65,
+    "modified_time": 1775117079.2480834,
+    "last_checked": "2026-04-02T09:04:39.385630"
+  },
+  "test_files\\test_file_7.txt": {
+    "path": "test_files\\test_file_7.txt",
+    "hash_value": "78f5bccd5fe411dc021e8e0188c2dd3ab399abdd8560f3a67f1e138957d41521",
+    "algorithm": "sha256",
+    "size": 103,
+    "modified_time": 1775117109.4754303,
+    "last_checked": "2026-04-03T15:59:08.348395"
+  },
+  "test_files\\test_file_8.txt": {
+    "path": "test_files\\test_file_8.txt",
+    "hash_value": "a3231a89ba759b72a96780962f54b53249de1a1a23a9beebbf4c3127f2a56328",
+    "algorithm": "sha256",
+    "size": 39,
+    "modified_time": 1775117169.5842414,
+    "last_checked": "2026-04-03T15:59:08.373475"
+  },
+  "test_files\\test_file_9.txt": {
+    "path": "test_files\\test_file_9.txt",
+    "hash_value": "73b6a5c1e04e562a4c7ec09d10aedfd8312a6a1e88dfc202a98a1f55235cdcb2",
+    "algorithm": "sha256",
+    "size": 65,
+    "modified_time": 1775117079.2510817,
+    "last_checked": "2026-04-02T09:04:39.443329"
+  }
+}

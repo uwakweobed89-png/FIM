@@ -1,0 +1,97 @@
+2026-04-02 09:04:39 - INFO - No existing baseline found at file_hashes.json
+2026-04-02 09:04:39 - INFO - File Integrity Monitor initialized in PRACTICE mode
+2026-04-02 09:04:39 - INFO - Hash algorithm: sha256, Interval: 10s
+2026-04-02 09:04:39 - INFO - === PRACTICE MODE ===
+2026-04-02 09:04:39 - INFO - Learning file integrity monitoring safely
+2026-04-02 09:04:39 - INFO - Watch how file changes are detected and alerted!
+2026-04-02 09:04:39 - INFO - Setting up practice environment in test_files
+2026-04-02 09:04:39 - INFO - Created 10 test files
+2026-04-02 09:04:39 - INFO - Baseline created with 10 files
+2026-04-02 09:04:39 - INFO - Saved baseline with 10 files to file_hashes.json
+2026-04-02 09:04:39 - INFO - 
+--- Check Iteration 1 ---
+2026-04-02 09:04:49 - INFO - 
+--- Check Iteration 2 ---
+2026-04-02 09:04:59 - INFO - 
+--- Check Iteration 3 ---
+2026-04-02 09:05:09 - INFO - 
+--- Check Iteration 4 ---
+2026-04-02 09:05:09 - INFO - [SIMULATION] Appended to: test_file_7.txt
+2026-04-02 09:05:19 - INFO - 
+--- Check Iteration 5 ---
+2026-04-02 09:05:19 - WARNING - MODIFIED: test_files\test_file_7.txt
+2026-04-02 09:05:19 - WARNING -   Old hash: e53bf11dc96bfd5198201dc14838df1504dc742e22147ffa45767c5e74a42648
+2026-04-02 09:05:19 - WARNING -   New hash: 78f5bccd5fe411dc021e8e0188c2dd3ab399abdd8560f3a67f1e138957d41521
+2026-04-02 09:05:19 - INFO - Alert: MODIFIED - test_files\test_file_7.txt
+2026-04-02 09:05:19 - INFO - Exported 1 alerts to fim_alerts_20260402_090519.json
+2026-04-02 09:05:29 - INFO - 
+--- Check Iteration 6 ---
+2026-04-02 09:05:39 - INFO - 
+--- Check Iteration 7 ---
+2026-04-02 09:05:39 - INFO - [SIMULATION] Deleted/recreated: test_file_2.txt
+2026-04-02 09:05:49 - INFO - 
+--- Check Iteration 8 ---
+2026-04-02 09:05:49 - WARNING - MODIFIED: test_files\test_file_2.txt
+2026-04-02 09:05:49 - WARNING -   Old hash: 3a98658ca8f4e72a8e6eafb292615082a1e49725b851cd238db7c1db237b748c
+2026-04-02 09:05:49 - WARNING -   New hash: a36ba4a17a048dcf760dbd95bb27f850220ca524d7c7e29df2923d572b2fd666
+2026-04-02 09:05:49 - INFO - Alert: MODIFIED - test_files\test_file_2.txt
+2026-04-02 09:05:59 - INFO - 
+--- Check Iteration 9 ---
+2026-04-02 09:06:09 - INFO - 
+--- Check Iteration 10 ---
+2026-04-02 09:06:09 - INFO - [SIMULATION] Deleted/recreated: test_file_8.txt
+2026-04-02 09:06:09 - INFO - Exported 1 alerts to fim_alerts_20260402_090609.json
+2026-04-02 09:06:19 - INFO - 
+--- Check Iteration 11 ---
+2026-04-02 09:06:19 - WARNING - MODIFIED: test_files\test_file_8.txt
+2026-04-02 09:06:19 - WARNING -   Old hash: 4a3c444465cd5e8717ff4e5e6673594bec6d455d231f3b907a1b5f847db28c51
+2026-04-02 09:06:19 - WARNING -   New hash: a3231a89ba759b72a96780962f54b53249de1a1a23a9beebbf4c3127f2a56328
+2026-04-02 09:06:19 - INFO - Alert: MODIFIED - test_files\test_file_8.txt
+2026-04-03 15:59:08 - INFO - Loaded baseline with 10 files
+2026-04-03 15:59:08 - INFO - File Integrity Monitor initialized in ACTIVE mode
+2026-04-03 15:59:08 - INFO - Hash algorithm: sha256, Interval: 60s
+2026-04-03 15:59:08 - INFO - === ACTIVE MODE ===
+2026-04-03 15:59:08 - INFO - Monitoring real system files
+2026-04-03 15:59:08 - WARNING - This will monitor ACTUAL system files!
+2026-04-03 15:59:08 - INFO - 
+--- Integrity Check 1 ---
+2026-04-03 15:59:08 - WARNING - MODIFIED: test_files\test_file_2.txt
+2026-04-03 15:59:08 - WARNING -   Old hash: 3a98658ca8f4e72a8e6eafb292615082a1e49725b851cd238db7c1db237b748c
+2026-04-03 15:59:08 - WARNING -   New hash: a36ba4a17a048dcf760dbd95bb27f850220ca524d7c7e29df2923d572b2fd666
+2026-04-03 15:59:08 - INFO - Alert: MODIFIED - test_files\test_file_2.txt
+2026-04-03 15:59:08 - WARNING - MODIFIED: test_files\test_file_7.txt
+2026-04-03 15:59:08 - WARNING -   Old hash: e53bf11dc96bfd5198201dc14838df1504dc742e22147ffa45767c5e74a42648
+2026-04-03 15:59:08 - WARNING -   New hash: 78f5bccd5fe411dc021e8e0188c2dd3ab399abdd8560f3a67f1e138957d41521
+2026-04-03 15:59:08 - INFO - Alert: MODIFIED - test_files\test_file_7.txt
+2026-04-03 15:59:08 - WARNING - MODIFIED: test_files\test_file_8.txt
+2026-04-03 15:59:08 - WARNING -   Old hash: 4a3c444465cd5e8717ff4e5e6673594bec6d455d231f3b907a1b5f847db28c51
+2026-04-03 15:59:08 - WARNING -   New hash: a3231a89ba759b72a96780962f54b53249de1a1a23a9beebbf4c3127f2a56328
+2026-04-03 15:59:08 - INFO - Alert: MODIFIED - test_files\test_file_8.txt
+2026-04-03 15:59:08 - INFO - Saved baseline with 10 files to file_hashes.json
+2026-04-03 15:59:08 - INFO - Next check in 60s
+2026-04-03 16:00:08 - INFO - 
+--- Integrity Check 2 ---
+2026-04-03 16:00:08 - INFO - Saved baseline with 10 files to file_hashes.json
+2026-04-03 16:00:08 - INFO - Next check in 60s
+2026-04-03 16:01:08 - INFO - 
+--- Integrity Check 3 ---
+2026-04-03 16:01:08 - INFO - Saved baseline with 10 files to file_hashes.json
+2026-04-03 16:01:08 - INFO - Next check in 60s
+2026-04-03 16:02:08 - INFO - 
+--- Integrity Check 4 ---
+2026-04-03 16:02:08 - INFO - Saved baseline with 10 files to file_hashes.json
+2026-04-03 16:02:08 - INFO - Next check in 60s
+2026-04-03 16:04:17 - INFO - Loaded baseline with 10 files
+2026-04-03 16:04:17 - INFO - File Integrity Monitor initialized in ACTIVE mode
+2026-04-03 16:04:17 - INFO - Hash algorithm: sha256, Interval: 60s
+2026-04-03 16:04:17 - INFO - === ACTIVE MODE ===
+2026-04-03 16:04:17 - INFO - Monitoring real system files
+2026-04-03 16:04:17 - WARNING - This will monitor ACTUAL system files!
+2026-04-03 16:04:17 - INFO - 
+--- Integrity Check 1 ---
+2026-04-03 16:04:17 - INFO - Saved baseline with 10 files to file_hashes.json
+2026-04-03 16:04:17 - INFO - Next check in 60s
+2026-04-03 16:05:17 - INFO - 
+--- Integrity Check 2 ---
+2026-04-03 16:05:17 - INFO - Saved baseline with 10 files to file_hashes.json
+2026-04-03 16:05:17 - INFO - Next check in 60s

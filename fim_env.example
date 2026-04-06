@@ -1,0 +1,14 @@
+# File Integrity Monitor Environment Variables
+# Copy this to .env and fill in your credentials
+# NEVER commit .env to version control!
+
+# Email Alerts
+FIM_EMAIL_SENDER=your-email@gmail.com
+FIM_EMAIL_PASSWORD=your-app-specific-password
+FIM_EMAIL_RECIPIENT=security@yourcompany.com
+
+# Elastic SIEM (optional)
+FIM_ELASTIC_API_KEY=your-elastic-api-key-here
+
+# Note: For Gmail, use an App Password, not your regular password!
+# Go to: https://myaccount.google.com/apppasswords
